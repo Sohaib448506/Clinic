@@ -1,0 +1,64 @@
+.LogIn {
+  padding: 40px;
+}
+.LogIn .right {
+  background-image: url("../../Asset/login1.jpg");
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+.LogIn .right img {
+height: 100vh;
+  object-fit: contain;
+}
+
+.LogIn .left .logo img {
+  width: 181px;
+  height: 47px;
+}
+
+.LogIn .left .secondlogo img {
+  width: 177px;
+  height: 173px;
+}
+.LogIn .left .secondlogo {
+  text-align: end;
+}
+
+.LogIn .left .heading h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.LogIn .left .heading h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.LogIn .left .main {
+  margin: 0% 8%;
+}
+
+.LogIn .left .logInInput input {
+  border-radius: 15px;
+}
+
+.LogIn .left .logInInput button {
+  padding: 10px 60px;
+}
+
+.LogIn .left .lastLogos {
+  text-align: center;
+  margin: 3% 0%;
+}
+
+.LogIn .left .lastLogos img {
+  margin-right: 2%;
+}
+
+@media (max-width: 575px) { /* screens smaller than 576px */
+  .LogIn .right {
+   display: none;
+  }
+}

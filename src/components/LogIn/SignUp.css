@@ -1,0 +1,72 @@
+.SignUp {
+  padding: 40px;
+}
+.SignUp .right {
+  background-image: url("../../Asset/signup.png");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  border: 10px solid #e7e7df;
+  border-radius: 15px;  
+  background-position: center
+}
+
+.SignUp .right img {
+  width: 710px;
+  height: 700px;
+  object-fit: contain;
+}
+
+.SignUp .left .logo img {
+  width: 181px;
+  height: 47px;
+}
+
+.SignUp .left .secondlogo img {
+  width: 177px;
+  height: 173px;
+}
+.SignUp .left .secondlogo {
+  text-align: end;
+}
+
+.SignUp .left .main {
+  margin: 0% 8%;
+}
+
+.SignUp .left .heading h1 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 36px;
+  margin-bottom: 0px;
+}
+.SignUp .left .heading h3 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 36px;
+  margin-bottom: 0px;
+}
+
+.SignUp .left .logInInput input {
+  border-radius: 15px;
+  margin: 4% 0%;
+}
+
+.SignUp .left .logInInput button {
+  padding: 10px 60px;
+}
+
+.SignUp .left .lastLogos {
+  text-align: center;
+  margin: 3% 0%;
+}
+
+.SignUp .left .lastLogos img {
+  margin-right: 2%;
+}
+
+
+@media (max-width: 575px) { /* screens smaller than 576px */
+  .SignUp .right {
+   display: none;
+  }
+}
